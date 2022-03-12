@@ -7,9 +7,6 @@ const PasswordGenerator = () => {
     const [digitsLength, setDigitsLength] = useState(2);
     const [symbolslLength, setSymbolsLength] = useState(2);
 
-    
-
-
     return <>
         <div className="slider">
             <label htmlFor="password-length">Tamanho</label>

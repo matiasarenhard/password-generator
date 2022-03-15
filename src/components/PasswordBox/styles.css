@@ -1,0 +1,25 @@
+.password-box {
+  height: 2rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.password-box p {
+  word-break: break-all;
+  font-family: monospace;
+  margin-top: 2rem;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.password-box .digit {
+  color: #1a56db;
+}
+
+.password-box .symbol {
+  color: #b43333;
+}

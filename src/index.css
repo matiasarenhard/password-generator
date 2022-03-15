@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #fafafa;
+  background-color: rgb(221, 221, 221);
 }
 
 .container {
@@ -16,9 +16,9 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .app-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }

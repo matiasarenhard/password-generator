@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react"
+import CopyPasswordButton from "../CopyPasswordButton";
 import PasswordBox from "../PasswordBox";
 
 
@@ -70,6 +71,7 @@ const PasswordGenerator = () => {
         </div>
 
         <PasswordBox password={password} />
+        <CopyPasswordButton password={password} />
     </>;
 }
 

@@ -1,0 +1,18 @@
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.copy-password-clipboard {
+  margin-top: 2rem;
+  padding: 0.5rem 0.75rem;
+  background-color: #0175ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.copy-password-clipboard:hover {
+  filter: brightness(120%);
+}
